@@ -1,0 +1,171 @@
+/* ---------DECLARAR LAS FUENTES  */
+
+			@font-face{/*1*/
+				font-family: Learning;
+				src: url(../fonts/LearningCurve.ttf);
+			}
+
+			@font-face{/*2*/
+				font-family: Awesome;
+				src: url(../fonts/Awesome.otf);
+			}
+
+			@font-face{/*3*/
+				font-family: Sansation;
+				src: url(../fonts/SansationLight.ttf);
+			}
+/*---------------------------------------------------------------------------*/
+
+			* {
+                margin: 0; padding: 0;
+            }
+            
+            html {
+                background-color: rgb(0, 0, 0);
+            }
+
+            body {
+                width: 750px; height: 1000px; 
+                margin: auto;background-color: rgb(255, 192, 203);
+            }
+/* uno-------------------------------------------------------------------------*/
+
+            header {/*1*/
+                width: 750px; height: 250px;
+                background-color: rgb(124, 2, 2);
+/* FUENTE */	font-family:  Awesome; 
+				font-size: 20px;
+				color: rgb(255, 255, 97);
+                box-shadow: 10px 10px 5px s#fa0000;
+            }
+
+
+            section#banner {
+                width: 250px; height: 250px;
+                font-family:  Awesome;
+                float: left;
+                background-color: rgb(124, 2, 2);
+            }
+            
+            section#logo {
+                width: 250px; height: 250px;
+                float: left;
+                background-color: rgb(2, 124, 104);			
+            }
+            
+            section#login {
+                width: 250px; height: 250px;
+                float: right;
+                background-color: rgb(124, 85, 2);				
+            }
+			.caja{
+				position: relative;
+				display: inline-block;
+			} 
+			img{ width: 250px;				    
+            }
+            
+			.uno{
+				position: absolute;	
+				top: 20px;
+				left: 5%;
+				
+			}
+			.dos{
+				position: absolute;	
+				top: 20px;
+				left: 5%;
+				
+			}
+			.tres{
+				position: absolute;	
+				top: 20px;
+				left: 5%;
+				
+			}
+            
+  /*dos -----------------------------------------------------------------*/ 
+            
+            nav {/*2*/
+                width: 750px;  height: 250px;
+                background-color: hsl(95, 92%, 12%);
+				color: hsl(182, 100%, 50%);
+/* FUENTE */    font-family: Learning ;
+				font-size: 20px;
+                box-shadow: 10px 10px 5px #f50303;
+            }               
+                    
+            section#inicio {                
+                width: 250px; height: 250px;
+                float: left;				
+            }
+            
+            section#producto {                
+                width: 250px; height: 250px;
+                float: left;
+            }
+            
+            section#contacto {
+                width: 250px; height: 250px;
+                float: right;
+            }            
+            
+/* tres ----------------------------------------------------------*/ 
+
+
+            main {/*3*/
+                width: 750px;  height: 250px;
+				font-size: 20px;
+				color: #cdfc0a;				
+				background-color: #000000;
+/* FUENTE */	font-family: Sansation;
+                box-shadow: 10px 10px 5px #f80303;
+            }              
+ 
+
+            aside#hoy {                
+                width: 250px; height: 250px;
+                float: left;
+            }
+            
+            article#novedades {                
+                width: 250px; height: 250px;
+                float: left;
+            }
+            
+            aside#internacional {
+                width: 250px; height: 250px;
+                float: right;
+            }            
+
+/* cuatro ---------------------------------------------------------*/
+            footer {/*4*/
+                width: 750px; height: 250px;
+                background-color: rgb(1, 28, 121);
+				font-size: 30px;
+				color: rgb(255, 216, 0);
+/* FUENTE */	font-family: Morning;
+                box-shadow: 10px 10px 5px #fd0202;
+				
+            }
+
+
+            aside#creditos {                
+                width: 250px; height: 250px;
+                float: left;
+				
+            }
+            
+            article#lugar {                
+                width: 250px; height: 250px;
+                float: left;
+				
+            }
+            
+            aside#correo {
+                width: 250px; height: 250px;
+                float: right;
+				
+            }
+
+	
